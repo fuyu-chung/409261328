@@ -6,9 +6,9 @@
     </head>
     <script>
     $(document).ready(function () {
-      $(div).hide();
-     $(photo).click(function () {
-        $(div).show();
+      $(#p).hide();
+     $(.photo).click(function () {
+        $(#p).show();
     });
   </script>
   <style>
@@ -24,6 +24,7 @@
     <button class="photo">my photo</button>
   <a href="#"><img class="photo" src="https://i.imgur.com/ngIJzgh.jpg" style="width:300px;height:500px;border-radius:10px;object-fit:cover"></a>
   <a href="https://www.facebook.com/fuyu.chung.5/"><p>My Facebook</p></a>
+      <div id="p" style="display: none;"></div>
   <div>
     <p>Things I love:</p>
     <ul>
